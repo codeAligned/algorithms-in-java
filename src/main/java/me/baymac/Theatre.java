@@ -40,9 +40,9 @@ public class Theatre {
     }
 
     public static void main(String [] args) {
+        Theatre theatre = new Theatre();
         Scanner scanner = new Scanner(System.in);
         String[] inputs = scanner.nextLine().split("\\s+");
-        Theatre theatre = new Theatre();
         String command = inputs[0];
         String screenName = inputs[1];
         ArrayList<Integer> items = new ArrayList<>();
